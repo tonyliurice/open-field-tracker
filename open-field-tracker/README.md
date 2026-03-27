@@ -6,12 +6,6 @@
 
 🐭 **Open Field Tracker** - A Python toolkit for analyzing rat movement trajectories in open field tests, generating heatmaps, trajectory plots, and statistical reports.
 
-## 🚀 Quick Start (No Coding Required)
-
-Not familiar with Python? Use our ready-to-use Skill directly in Kimi:
-
-👉 [Use 旷场实验分析助手](https://kimi.moonshot.cn/chat/xxxxxxxx)
-
 ## 📦 Installation
 
 ```bash
@@ -91,23 +85,6 @@ Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 ## 📄 License
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Original video processing code adapted from [RatTracker](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep)
-- Developed with support from OpenClaw AI Assistant
-
----
-
-## 🦾 Kimi Skill Integration
-
-This Python package powers the **旷场实验分析助手** Skill available on Kimi+ platform. The Skill provides a conversational interface for users who prefer not to write code.
-
-**Skill Features:**
-- Upload video files directly
-- Natural language commands
-- Automatic report generation
-- Downloadable results
 
 ## 📧 Contact
 
