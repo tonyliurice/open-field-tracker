@@ -1,0 +1,77 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "open-field-tracker"
+version = "1.0.0"
+description = "A Python toolkit for rat movement trajectory analysis in open field tests"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Tianyi Liu", email = "liutianyi@example.com"}
+]
+maintainers = [
+    {name = "Tianyi Liu", email = "liutianyi@example.com"}
+]
+keywords = ["behavioral neuroscience", "open field test", "trajectory analysis", "rat behavior", "video analysis"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.20.0",
+    "pandas>=1.3.0",
+    "matplotlib>=3.4.0",
+    "seaborn>=0.11.0",
+    "opencv-python>=4.5.0",
+    "scipy>=1.7.0",
+    "scikit-learn>=0.24.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "pytest-cov>=2.0",
+    "black>=21.0",
+    "flake8>=3.9",
+    "mypy>=0.9",
+]
+docs = [
+    "sphinx>=4.0",
+    "sphinx-rtd-theme>=1.0",
+    "nbsphinx>=0.8",
+]
+
+[project.urls]
+Homepage = "https://github.com/tonyliurice/open-field-tracker"
+Documentation = "https://github.com/tonyliurice/open-field-tracker#readme"
+Repository = "https://github.com/tonyliurice/open-field-tracker.git"
+"Bug Tracker" = "https://github.com/tonyliurice/open-field-tracker/issues"
+
+[project.scripts]
+open-field-tracker = "open_field_tracker.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+open_field_tracker = ["py.typed"]
+
+[tool.black]
+line-length = 100
+target-version = ['py38', 'py39', 'py310', 'py311']
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
