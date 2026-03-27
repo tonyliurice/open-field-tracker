@@ -1,5 +1,5 @@
 # Open Field Tracker
-
+[![DOI](https://zenodo.org/badge/1193820909.svg)](https://doi.org/10.5281/zenodo.19259088)
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
