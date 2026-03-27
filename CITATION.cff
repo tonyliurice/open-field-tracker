@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Open Field Tracker: A Python toolkit for rat movement trajectory analysis"
+abstract: "A Python toolkit for analyzing rat movement trajectories in open field tests, generating heatmaps, trajectory plots, and statistical reports. Supports batch processing and unified coordinate mapping for cross-study comparison."
+authors:
+  - family-names: "Liu"
+    given-names: "Tianyi"
+    orcid: "https://orcid.org/0009-0004-2339-1945"
+repository-code: "https://github.com/tonyliurice/open-field-tracker"
+version: 1.0.0
+date-released: 2026-03-27
+keywords:
+  - behavioral neuroscience
+  - open field test
+  - trajectory analysis
+  - heatmap
+  - rat behavior
+  - video analysis
+license: MIT
+preferred-citation:
+  type: software
+  title: "Open Field Tracker"
+  authors:
+    - family-names: "Liu"
+      given-names: "Tianyi"
+      orcid: "https://orcid.org/0009-0004-2339-1945"
+  year: 2026
+  version: 1.0.0
+  doi: "10.5281/zenodo.placeholder"

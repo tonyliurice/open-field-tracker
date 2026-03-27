@@ -1,0 +1,12 @@
+{
+  "name": "旷场实验分析助手",
+  "identifier": "open-field-tracker-skill",
+  "version": "1.0.0",
+  "description": "智能分析大鼠旷场实验数据，生成运动轨迹图和热力图。基于开源学术工具 Open Field Tracker (DOI: 10.5281/zenodo.placeholder)。",
+  "author": "Tianyi Liu",
+  "entry": "main.py",
+  "icon": "assets/icon.png",
+  "dependencies": ["numpy", "pandas", "matplotlib", "seaborn", "opencv-python", "scipy", "scikit-learn"],
+  "capabilities": ["file_upload", "image_generation"],
+  "readme": "README.md"
+}
